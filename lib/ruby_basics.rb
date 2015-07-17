@@ -6,8 +6,8 @@ def assign_variable(value)
  name = value
 end
 
-def argue(argument)
-  argument
+def argue(phrase)
+  phrase
 end
 
 def greeting(greeting,name)
@@ -15,11 +15,11 @@ def greeting(greeting,name)
 end
 
 def return_a_value
-    puts "Nice"
+    "Nice"
 end
 
 def last_evaluated_value
-    puts "expert"
+   "expert"
 end
 
 def pizza_party(topping="cheese")
