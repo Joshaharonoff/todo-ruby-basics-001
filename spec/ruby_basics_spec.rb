@@ -37,7 +37,7 @@ describe "ruby" do
       expect{ greeting(greeting, name) }.to_not raise_error
     end
 
-    it 'should raise an error with one argument' do
+    it 'should raise an erexitror with one argument' do
       greeting = "Hi there, "
 
       expect{ greeting(greeting)}.to raise_error
